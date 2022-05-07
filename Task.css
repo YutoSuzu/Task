@@ -13,10 +13,59 @@ header {
 main{
   width: 960px;
   margin: 50px auto;
+  display: flex;
+  
 }
 
-fotter {
-  width: 100%;
+.step {
+  width: 300px;
+  padding: 10px;
+  margin-right: 30px;
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+.step:last-child {
+  margin-right: 0;
+}
+
+.No {
+  background-color: #FF9A4B;
+  color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+  
+}
+.image2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+  
+}
+.image3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+  
+}
+
+
+h3 {
+  padding: 15px 0 5px 0;
+  
+}
+
+footer {
   height: 50px;
   background-color: #AAAAAA;
 }
